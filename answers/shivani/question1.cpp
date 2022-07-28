@@ -2,18 +2,18 @@
 
 int main() {
     int n;
-    std::cin>>n;
-    std::cout<<n<<" ";
+    cin>>n;
+    cout<<n<<" ";
     while(n!=1){
         if(n%2==0){
             n/=2;
-            std::cout<<n;
+            cout<<n;
         }
         else{
             n=(n*3)+1;
-            std::cout<<n;
+            cout<<n;
         }
-        std::cout<<" ";
+        cout<<" ";
     }
 
     return 0;
