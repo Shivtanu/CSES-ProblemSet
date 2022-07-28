@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 
 int main() {
-    int n;
+    long long int n;
     cin>>n;
     cout<<n<<" ";
     while(n!=1){
